@@ -1,0 +1,39 @@
+{
+  "name": "p2p-server",
+  "version": "1.0.0",
+  "description": "Peer 2 Peer server based on Koa to handle peer to peer match",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/examples/main.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=17.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CICCIOSGAMINO/p2p-server.git"
+  },
+  "keywords": [
+    "p2p",
+    "Peer",
+    "Peerjs",
+    "Peer2Peer",
+    "p2p-server",
+    "Peer2Peer-Server"
+  ],
+  "author": "@cicciosgamino",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/CICCIOSGAMINO/p2p-server/issues"
+  },
+  "homepage": "https://github.com/CICCIOSGAMINO/p2p-server#readme",
+  "dependencies": {
+    "@koa/router": "^10.1.1",
+    "koa": "^2.13.4",
+    "koa-logger": "^3.2.1",
+    "koa-static": "^5.0.0",
+    "koa-websocket": "^6.0.0",
+    "ws": "^8.3.0"
+  }
+}
