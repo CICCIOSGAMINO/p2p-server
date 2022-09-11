@@ -1,4 +1,4 @@
-import { createReadStream } from 'fs'
+import { createReadStream } from 'node:fs'
 import { p2pServer } from '../peers-server.mjs'
 import Koa from 'koa'
 import Router from '@koa/router'

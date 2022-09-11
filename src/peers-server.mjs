@@ -1,5 +1,5 @@
 import WebSocket, { WebSocketServer } from 'ws'
-import { EventEmitter } from 'events'
+import { EventEmitter } from 'node:events'
 import { config } from './utils/Config.mjs'
 
 class PeersServer extends EventEmitter {

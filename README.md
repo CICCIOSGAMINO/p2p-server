@@ -1,5 +1,8 @@
-# p2p-server
-Peer 2 Peer Server based on Koa to handle  peer to peer match ....
+p2p-server
+==========
+[TOC]
+
+Peer 2 Peer Server, this server . Used by Warping to metch the peers to start the stuff sharing.
 
 ## config.json
 Configuration file where you can set some Peer2Peers Server configurations:
